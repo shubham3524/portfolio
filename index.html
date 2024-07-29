@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Portfolio" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/fa62c117c7.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="styles.css" />
+    <title>शुभम</title>
+  </head>
+  <body class="light" id="top">
+    <header class="header center">
+      <h3>
+        <a href="https://shubham3524.github.io/portfolio" class="link">शुभम</a>
+      </h3>
+
+      <nav class="nav center">
+        <ul class="nav__list center">
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#projects">Projects</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#skills">Skills</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#contact">Contact</a>
+          </li>
+        </ul>
+
+        <button type="button" aria-label="toggle theme" class="btn btn--icon">
+          <i aria-hidden="true" id="btn-theme" class="fas fa-moon"></i>
+        </button>
+
+        <button
+          type="button"
+          aria-label="toggle navigation"
+          class="btn btn--icon nav__hamburger"
+        >
+          <i aria-hidden="true" class="fas fa-bars"></i>
+        </button>
+      </nav>
+    </header>
+
+    <main>
+      <!-- About -->
+      <div class="about center">
+        <h1>Hi, I am <span class="about__name">Shubham Kumar.</span></h1>
+        <h2 class="about__role">A Data Analyst/Engineer.</h2>
+        <p class="about__desc">
+          I'm a self-taught Data Engineer and Analyst committed to lifelong learning and data mastery. I excel at transforming raw data into insights that drive smarter decisions and strategic moves. My expertise includes crafting efficient data pipelines, ensuring data accuracy, and uncovering trends that shape business success. Energized by the challenge of making complex data clear and actionable, I am dedicated to staying at the forefront of this dynamic field.
+        </p>
+
+        <div class="about__contact center">
+          <a
+            href="https://drive.google.com/file/d/1xgfhObCXWpXmqfTHwx1U3TBlzuRT1_WK/view?usp=sharing "
+            target="_blank"
+          >
+            <span class="btn btn--outline">Resume</span>
+          </a>
+
+          <a
+            href="https://github.com/shubham3524"
+            aria-label="github"
+            class="link link--icon"
+          >
+            <i aria-hidden="true" class="fab fa-github"></i>
+          </a>
+
+          <a
+            href="https://www.linkedin.com/in/shubham35/"
+            aria-label="linkedin"
+            class="link link--icon"
+          >
+            <i aria-hidden="true" class="fab fa-linkedin"></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- Projects -->
+      <section id="projects" class="section projects">
+        <h2 class="section__title">Projects</h2>
+
+        <div class="projects__grid">
+          <div class="project">
+            <h3>HR Analytics</h3>
+            <p class="project__description">
+              Created an HR Analytics Dashboard to visualize key metrics and performance indicators, facilitating data-driven decision-making. Improved data accuracy and reporting efficiency, providing actionable insights for HR management.
+            </p>
+            <p></p>
+            <ul class="project__stack">
+              <li class="project__stack-item">PowerBI</li>
+              <li class="project__stack-item">Power Query </li>
+              <li class="project__stack-item">Data Cleaning</li>
+              
+            </ul>
+
+            <a
+              href="https://github.com/shubham3524/HR_-Data_Analytics"
+              aria-label="source code"
+              class="link link--icon"
+              target="_blank"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+            
+          </div>
+
+          <div class="project">
+            <h3>Olympic Data Analytics</h3>
+            <p class="project__description">
+              Extracted and processed Olympic dataset using Azure tools, enabling efficient data storage and transformation. Designed interactive dashboards and reports to provide valuable insights.
+              
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">SQL</li>
+              <li class="project__stack-item">Azure Data Lake Storage(ADLS)</li>
+              <li class="project__stack-item">Azure data Factory(ADF)</li>
+              <li class="project__stack-item">Azure Synpase Analytics</li>
+              <li class="project__stack-item">Power BI</li>
+            </ul>
+
+            <a
+              href="https://github.com/shubham3524/tokyo-olympic-azure-data-engineering-project"
+              aria-label="source code"
+              class="link link--icon"
+              target="_blank"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+          </div>
+
+          <div class="project">
+            <h3>Slice-Analytics Master</h3>
+            <p class="project__description">
+              Implemented data processing to manage pizza sales data, employing Power BI for advanced cleaning and transformation. Created visually compelling reports and dashboards to effectively communicate insights.
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">SQL Server</li>
+              <li class="project__stack-item">Power BI</li>
+              <li class="project__stack-item">Power Query</li>
+            </ul>
+
+            <a
+              href="https://github.com/shubham3524/Slice-Analytics-Master-Project"
+              aria-label="source code"
+              class="link link--icon"
+              target="_blank"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Skills -->
+      <section class="section skills" id="skills">
+        <h2 class="section__title">Skills</h2>
+        <ul class="skills__list">
+          <li class="skills__list-item btn btn--plain">SQL</li>
+          <li class="skills__list-item btn btn--plain">Python</li>
+          <li class="skills__list-item btn btn--plain">Power BI</li>
+          <li class="skills__list-item btn btn--plain">Azure Data Factory</li>
+          <li class="skills__list-item btn btn--plain">Azure Synapse Analytics</li>
+          <li class="skills__list-item btn btn--plain">Azure SQL Database</li>
+          <li class="skills__list-item btn btn--plain">SQL Server</li>
+          <li class="skills__list-item btn btn--plain">PostgreSQL</li>
+          <li class="skills__list-item btn btn--plain">My SQL</li>
+        </ul>
+      </section>
+
+      <!-- Contact -->
+      <section class="section contact center" id="contact">
+        <h2 class="section__title">Contact</h2>
+        <a href="mailto:shubhamkr3524@gmail.com">
+          <span class="btn btn--outline">Email me</span>
+        </a>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <a href="https://github.com/shubham3524" class="link footer__link">
+        @Shubham Kumar
+      </a>
+    </footer>
+
+    <div class="scroll-container">
+      <div class="scroll-top">
+        <a aria-label="Scroll up" href="#top">
+          <i aria-hidden="true" class="fas fa-arrow-up"></i>
+        </a>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
